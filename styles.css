@@ -1,14 +1,14 @@
-body {
+
+.content {
     display: flex;
     flex-direction: row;
     height: 100%;
 }
 
 .left-column {
-    width: 15%;
+    width: 20%;
     padding: 3%;
-    height: 100vh;
-    overflow-x: hidden;
+    height: 100%;
     overflow-y: scroll;
 }
 
