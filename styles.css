@@ -100,3 +100,6 @@ code > p {
     padding-left: 2em;
 }
 
+abbr {
+    color: orange;
+  }
