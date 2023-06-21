@@ -14,3 +14,19 @@ body {
     padding: 3%;
 }
 
+table {
+    border: 1px solid grey;
+}
+
+th {
+    background-color: rgba(128, 128, 128, 0.555);
+}
+
+tr {
+    border: 1px solid grey;
+}
+
+td {
+    padding: 1%;
+}
+
