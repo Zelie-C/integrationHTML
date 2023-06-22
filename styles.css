@@ -130,7 +130,7 @@ td {
 .exemple-container {
     display: flex;
     flex-direction: row;
-    margin-bottom: 7%;
+    margin-bottom: 2%;
     padding: 0% 2% 0% 2%;
     text-align: justify;
 }
@@ -149,6 +149,15 @@ td {
     padding: 1%;
     border: 1px solid grey;
     border-radius: 5px;
+}
+
+.plus {
+    padding-left: 2%;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
 }
 
 .balise {
