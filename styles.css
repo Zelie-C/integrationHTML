@@ -30,6 +30,7 @@ body {
     padding: 3%;
     height: 100%;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 .left-column-content {
@@ -96,7 +97,15 @@ table {
 }
 
 .table-name {
-    width: 20px;
+    width: 30%;
+}
+
+.table-description {
+    width: 35%;
+}
+
+.table-values {
+    width: 35%;
 }
 
 th {
@@ -121,7 +130,8 @@ td {
     display: flex;
     flex-direction: row;
     margin-bottom: 3%;
-    padding: 0% 2% 0% 2%
+    padding: 0% 2% 0% 2%;
+    text-align: justify;
 }
 
 .rendu {
@@ -151,10 +161,6 @@ td {
 
 .balise > .link {
     color: green;
-}
-
-code > p {
-    padding-left: 2em;
 }
 
 abbr {
