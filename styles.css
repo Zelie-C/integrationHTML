@@ -159,24 +159,24 @@ td {
 .button-container{
     padding-left: 5%;
     margin-top: 2%;
-    width: 50%;
+    width: 80%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 button {
     width: 30%;
     background-color: white;
-    border-color:  rgb(221, 75, 37);
+    border-color: grey;
     border-radius: 2em;
     padding: 1%;
-    margin-bottom: 1%;
+    margin-right: 2%;
 }
 
 
 button:hover {
     background-color:  rgb(221, 75, 37);
+    border-color: rgb(221, 75, 37);
 }
 
 button:hover > a {
