@@ -109,7 +109,7 @@ table {
 }
 
 th {
-    background-color: rgba(128, 128, 128, 0.555);
+    background-color: rgba(128, 128, 128, 0.389);
     text-align: left;
     padding-left: 1%;
 }
@@ -129,7 +129,7 @@ td {
 .exemple-container {
     display: flex;
     flex-direction: row;
-    margin-bottom: 3%;
+    margin-bottom: 7%;
     padding: 0% 2% 0% 2%;
     text-align: justify;
 }
