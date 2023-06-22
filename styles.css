@@ -26,11 +26,10 @@ body {
 }
 
 .left-column {
-    width: 30%;
+    width: 18%;
     padding: 3%;
     height: 100%;
     overflow: scroll;
-    overflow-x: hidden;
 }
 
 .left-column-content {
@@ -45,6 +44,7 @@ body {
 h1 {
     margin-bottom: 10%;
     font-family: "Rubik-Bold";
+    font-variant: small-caps;
 }
 
 ul {
@@ -60,6 +60,7 @@ a:hover {
 }
 
 .main-column {
+    width: 82%;
     padding: 3%;
     margin-left: 2%;
     height: 100%;
