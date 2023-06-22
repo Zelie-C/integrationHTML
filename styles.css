@@ -95,6 +95,10 @@ table {
     border: 1px solid grey;
 }
 
+.table-name {
+    width: 20px;
+}
+
 th {
     background-color: rgba(128, 128, 128, 0.555);
     text-align: left;
