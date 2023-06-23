@@ -186,19 +186,44 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Exemple un peu long</td>
-                        <td>Exemple</td>
-                        <td>Exemple</td>
+                        <td>download</td>
+                        <td>Le navigateur traite l'URL lié comme un téléchargement</td>
+                        <td>filename</td>
                     </tr>
                     <tr>
-                        <td>Exemple</td>
-                        <td>Exemple</td>
-                        <td>Exemple</td>
+                        <td>href</td>
+                        <td>L'URL vers laquelle pointe l'hyperlien. Les liens ne sont pas limités aux URL basées sur le protocole HTTP - ils peuvent utiliser n'importe quel schéma d'URL pris en charge par les navigateurs.</td>
+                        <td>url, mailto, tel</td>
                     </tr>
                     <tr>
+                        <td>hreflang</td>
+                        <td>Indication du langage humain de l'URL lié. Pas de fonctionnalité intégrée.</td>
+                        <td>fr</td>
+                    </tr>
+                    <tr>
+                        <td>ping</td>
+                        <td>Une liste d'URL séparées par des espaces. Lorsque le lien est suivi, le navigateur envoie des requêtes POST avec le corps PING aux URL.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>referrerpolicy</td> 
                         <td>Exemple</td>
-                        <td>Exemple</td>
-                        <td>Exemple</td>
+                        <td>no-referrer, no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin (par défaut), unsafe-url</td>
+                    </tr>
+                    <tr>
+                        <td>rel</td>
+                        <td>La relation de l'URL lié sous forme de types de liens séparés par des espaces.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>target</td>
+                        <td>L'endroit où afficher l'URL lié, comme le nom d'un contexte de navigation (un onglet, une fenêtre ou une &lt;iframe&gt;).</td>
+                        <td>_self, _blank, _parent, _top</td>
+                    </tr>
+                    <tr>
+                        <td>type</td>
+                        <td>Indique le format de l'URL lié à l'aide d'un type MIME. Pas de fonctionnalité intégrée.</td>
+                        <td></td>
                     </tr>
                 </tbody>
             </table>
@@ -225,36 +250,13 @@
         </div>
         <div class="balise-container">
             <h2 class="balise-name" id="abbr">&lt;abbr&gt;</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare enim egestas, cursus orci vel, fringilla orci. In elit nisi, ornare a volutpat vitae, faucibus a nunc. Nunc pellentesque ante elit, in auctor risus ornare ornare. Suspendisse in suscipit urna. Nullam vel mi pharetra, tincidunt ante in, placerat felis.</p>
+            <p>L'élément HTML abbr représente une abréviation ou un acronyme. Lors de l'inclusion d'une abréviation ou d'un acronyme, il convient de fournir une expansion complète du terme en texte clair lors de la première utilisation, ainsi que l'abréviation pour marquer l'abréviation. L'utilisateur est ainsi informé de la signification de l'abréviation ou de l'acronyme.</p>
         </div>
         <div class="attributs-container">
             <h3>Attributs</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th class="table-name">Nom</th>
-                        <th class="table-description">Description</th>
-                        <th class="table-values">Valeurs (Exemple)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Exemple un peu long</td>
-                        <td>Exemple</td>
-                        <td>Exemple</td>
-                    </tr>
-                    <tr>
-                        <td>Exemple</td>
-                        <td>Exemple</td>
-                        <td>Exemple</td>
-                    </tr>
-                    <tr>
-                        <td>Exemple</td>
-                        <td>Exemple</td>
-                        <td>Exemple</td>
-                    </tr>
-                </tbody>
-            </table>
+            <p>Cet élément ne prend en charge que les attributs globaux. L'attribut title a une signification sémantique spécifique lorsqu'il est utilisé avec l'élément abbr ; il doit contenir une description complète et lisible par l'homme ou une expansion de l'abréviation. Ce texte est souvent présenté par les navigateurs sous la forme d'une infobulle lorsque le curseur de la souris passe sur l'élément.
+
+                Chaque élément abbr que vous utilisez est indépendant de tous les autres ; le fait de fournir un titre à l'un d'entre eux n'entraîne pas automatiquement l'ajout du même texte d'expansion aux autres éléments ayant le même contenu textuel.</p>
         </div>
         <h3 class="exemple-title">Exemple</h3>
         <div class="exemple-container">

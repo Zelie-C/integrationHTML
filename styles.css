@@ -59,6 +59,10 @@ a:hover {
     font-weight: bold;
 }
 
+p {
+    text-align: justify;
+}
+
 .main-column {
     width: 82%;
     padding: 3%;
@@ -75,10 +79,6 @@ a:hover {
     margin-bottom: 1%;
     font-size: 1.7em;
     font-family: "Rubik-Bold";
-}
-
-.balise-container > p {
-    text-align: justify;
 }
 
 .attributs-container {
@@ -98,15 +98,15 @@ table {
 }
 
 .table-name {
-    width: 30%;
+    width: 15%;
 }
 
 .table-description {
-    width: 35%;
+    width: 65%;
 }
 
 .table-values {
-    width: 35%;
+    width: 20%;
 }
 
 th {
