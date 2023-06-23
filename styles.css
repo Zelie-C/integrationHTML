@@ -164,22 +164,26 @@ td {
     flex-direction: row;
 }
 
-button {
+.btn {
     width: 30%;
     background-color: white;
-    border-color: grey;
+    border: 1px solid grey;
     border-radius: 2em;
     padding: 1%;
     margin-right: 2%;
+    text-align: center;
 }
 
-
-button:hover {
+.btn:hover {
     background-color:  rgb(221, 75, 37);
     border-color: rgb(221, 75, 37);
 }
 
-button:hover > a {
+.btn > a {
+    display: block;
+}
+
+.btn:hover > a {
     color: white;
 }
 
